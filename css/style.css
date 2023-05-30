@@ -1,0 +1,20 @@
+.main-div {
+    
+}
+
+.sidebar {
+    height: 100vh;
+    width: clamp(200px, 20%, 500px);
+    background-color: #3b82f6;
+    position: fixed;
+    display: grid;
+}
+
+.dash-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-div {
+    display: flex;
+}
