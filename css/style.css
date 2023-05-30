@@ -12,10 +12,10 @@ html {
     width: clamp(250px, 20%, 450px);
     background-color: #3b82f6;
     color: white;
-    position: fixed;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 15% repeat(2, 1fr);
+    row-gap: 30px;
 }
 
 .dash-icon {
@@ -33,7 +33,7 @@ html {
 .dash-div {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 .flex-link {
@@ -43,11 +43,27 @@ html {
 }
 
 .sidebar-text {
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
 .link-icon {
     width: 30px;
     height: 30px;
-    margin-top: 24px;
+    margin: 9px 0; /*helps align icons with their text properly */
+}
+
+.header-div {
+    width: 80%;
+    height: 20vh;
+    background-color: black;
+}
+
+.head-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: row;
 }
