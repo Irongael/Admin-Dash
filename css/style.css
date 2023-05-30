@@ -9,26 +9,45 @@ html {
 
 .sidebar {
     height: 100vh;
-    width: clamp(250px, 20%, 500px);
+    width: clamp(250px, 20%, 450px);
     background-color: #3b82f6;
     color: white;
     position: fixed;
     display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% repeat(2, 1fr);
 }
 
-.icon {
+.dash-icon {
     width: 50px;
     height: 50px;
     padding-left: 10px;
 }
 
-.icon-text {
+.dash-text {
     font-size: 2em;
     margin: 7px;
     padding-right: 10px;
 }
 
-.icon-div {
+.dash-div {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.flex-link {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12%;
+}
+
+.sidebar-text {
+    font-size: 1.5em;
+}
+
+.link-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 24px;
 }
