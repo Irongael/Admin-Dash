@@ -3,7 +3,7 @@
     src: url(../font/Roboto-Black.ttf);
 }
  
-* {
+html {
     font-family: "Roboto";
 }
 
