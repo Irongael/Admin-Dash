@@ -27,6 +27,10 @@ a {
     color: white;
 }
 
+a:hover {
+    color: #00008b;
+}
+
 a:active {
     color: rgb(236, 166, 37);
     text-decoration: underline;
