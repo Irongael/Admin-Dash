@@ -118,3 +118,27 @@ a {
     font-size: 20px;
     padding-left: 10px;
 }
+
+.header-greeting {
+    display: flex;
+    align-items: center;
+}
+
+div.header-greeting > img.profile-pic {
+    width: 70px;
+    height: 70px;
+    margin: 0 10px 0 25px;
+}
+
+.greeting-box {
+    height: 100%;
+    width: 50%;
+}
+
+.greeting-smtext {
+    font-size: 12px;
+}
+
+.greeting-text {
+    font-size: 22px;
+}
