@@ -5,6 +5,8 @@
  
 html {
     font-family: "Roboto";
+    height: 100vh;
+    width: 100vw;
 }
 
 .main-div {
@@ -13,7 +15,7 @@ html {
 
 .sidebar {
     height: 100vh;
-    width: clamp(250px, 20%, 450px);
+    width: clamp(250px, 20vw, 550px);
     background-color: #3b82f6;
     color: white;
     display: grid;
@@ -70,18 +72,13 @@ a:active {
     margin: 11px 0; /*helps align icons with their text properly */
 }
 
-.body-div {
-    width: 100%;
-    height: 100vh;
-}
-
 .header-div {
-    width: 100%;
+    width: 80vw;
     height: 20vh;
     background-color: white;
     border-bottom: 2px solid grey;
     display: grid;
-    grid-template-columns: 70% 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(2, 1fr);
 }
 
@@ -106,7 +103,7 @@ a:active {
 
 .content-div {
     background-color: #D6DBDF;
-    width: 100%;
+    width: 80vw;
     height: 80vh;
 }
 
@@ -169,4 +166,8 @@ div.header-greeting > img.profile-pic {
 .btns:hover {
     background-color: rgb(236, 166, 37);
     color: #3b82f6;
+}
+
+.content-div {
+    display: grid; 
 }
