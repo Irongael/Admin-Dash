@@ -2,7 +2,7 @@
     font-family: "Roboto";
     src: url(../font/Roboto-Black.ttf);
 }
- 
+
 html {
     font-family: "Roboto";
     height: 100vh;
@@ -105,6 +105,7 @@ a:active {
     background-color: #D6DBDF;
     width: 80vw;
     height: 80vh;
+    display: flex;
 }
 
 .profile-div {
@@ -122,7 +123,7 @@ a:active {
 
 .username-sm {
     font-size: 20px;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 .header-greeting {
@@ -133,7 +134,7 @@ a:active {
 div.header-greeting > img.profile-pic {
     width: 70px;
     height: 70px;
-    margin: 0 10px 0 25px;
+    margin: 0 10px 0 15px;
 }
 
 .greeting-box {
@@ -168,6 +169,29 @@ div.header-greeting > img.profile-pic {
     color: #3b82f6;
 }
 
-.content-div {
-    display: grid; 
+.project-div {
+    height: 100%;
+    width: 75%;
 }
+
+.card-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    height: 80%;
+    width: 90%;
+    padding-left: 15px;
+}
+
+.project-text {
+    padding-left: 10px;
+}
+
+.project-card {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+    border-left: solid 8px rgb(236, 166, 37);
+} 
