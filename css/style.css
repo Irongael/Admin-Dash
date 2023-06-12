@@ -244,6 +244,13 @@ div.header-greeting > img.profile-pic {
     margin-bottom: 8px;
 }
 
-.underline {
-    border-bottom: solid 2px grey;
+.user-trend {
+    display: flex;
+    margin: 12px 0;
+}
+
+.user-trend > .profile-pic {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
 }
