@@ -7,6 +7,10 @@
     .card-img {
         display: none;
     }
+
+    .announce-div {
+        padding-left: 45px;
+    }
 }
 
 html {
@@ -231,4 +235,15 @@ div.header-greeting > img.profile-pic {
     width: 95%;
     background-color: white;
     border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.announce-title {
+    margin-bottom: 8px;
+}
+
+.underline {
+    border-bottom: solid 2px grey;
 }
