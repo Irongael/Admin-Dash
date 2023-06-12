@@ -178,9 +178,9 @@ div.header-greeting > img.profile-pic {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 20px;
-    height: 80%;
-    width: 90%;
+    gap: 25px;
+    height: 85%;
+    width: 85%;
     padding-left: 15px;
 }
 
@@ -195,3 +195,8 @@ div.header-greeting > img.profile-pic {
     border-radius: 5%;
     border-left: solid 8px rgb(236, 166, 37);
 } 
+
+.description-txt {
+    color: grey;
+    font-size: 12px;
+}
